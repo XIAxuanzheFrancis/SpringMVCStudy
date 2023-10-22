@@ -10,6 +10,7 @@
   <version>1.0-SNAPSHOT</version>
   <modules>
     <module>SpringMVC_Study-01-servlet</module>
+    <module>SpringMVC_Study-02-hellomvc</module>
   </modules>
 
   <properties>
