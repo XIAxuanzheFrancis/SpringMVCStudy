@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="SpringMVC_Study-05-json:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/SpringMVC_Study_05_json_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="SpringMVC_Study-05-json/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="SpringMVC_Study-05-json" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
