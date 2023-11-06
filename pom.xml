@@ -14,6 +14,7 @@
     <module>SpringStudy-03-annotation</module>
     <module>SpringMVC_Study-04-Controller</module>
     <module>SpringMVC_Study-05-json</module>
+    <module>SpringMVC_Study-06-ajax</module>
   </modules>
 
   <properties>
