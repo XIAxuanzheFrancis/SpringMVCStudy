@@ -7,10 +7,20 @@
 --%>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
-  <head>
+<head>
     <title>$Title$</title>
-  </head>
-  <body>
-  $END$
-  </body>
+    <script src="${pageContext.request.contextPath}/statics/js/jquery-3.7.1.js"></script>
+    <script>function a() {
+      $.post({
+        url:"${pageContext.request.contextPath}/a",
+        data:{name: $("#username").val()},
+        success: function (data) {
+          alert(data);
+        }
+      })
+    }</script>
+</head>
+<body>
+username: <input type="text" id="username" onblur="a()">
+</body>
 </html>
