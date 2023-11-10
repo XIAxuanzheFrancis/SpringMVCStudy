@@ -1,6 +1,9 @@
 package com.xuanzhe.Controller;
 
+import com.xuanzhe.pojo.User;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 import javax.servlet.http.HttpServletResponse;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,5 +22,14 @@ public class AjaxController {
     }else{
       resp.getWriter().print("false");
     }
+  }
+
+  @RequestMapping("/a2")
+  public List<User> a2(){
+    List<User> userList = new ArrayList<User>();
+    userList.add(new User("xiaxuanzhe",22,"man"));
+    userList.add(new User("xiaxuanzhe2",22,"man"));
+    userList.add(new User("xiaxuanzhe3",22,"man"));
+    return userList;
   }
 }
