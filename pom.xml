@@ -16,6 +16,7 @@
     <module>SpringMVC_Study-05-json</module>
     <module>SpringMVC_Study-06-ajax</module>
     <module>SpringMVC_Study-07-intercepter</module>
+    <module>SpringMVC_Study-08-file</module>
   </modules>
 
   <properties>
