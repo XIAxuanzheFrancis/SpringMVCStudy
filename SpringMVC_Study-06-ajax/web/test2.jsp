@@ -20,7 +20,7 @@
                     "<td>" + data[i].name + "</td>" +
                     "<td>" + data[i].age + "</td>" +
                     "<td>" + data[i].sex + "</td>" +
-                "111</tr>"
+                "</tr>"
             }
             $("#content").html(html)
           })

@@ -32,4 +32,24 @@ public class AjaxController {
     userList.add(new User("xiaxuanzhe3",22,"man"));
     return userList;
   }
+
+  @RequestMapping("/a3")
+  public String a3(String name, String pwd){
+    String msg = "";
+    if(name!=null){
+      if("admin".equals(name)){
+        msg = "ok";
+      }else{
+        msg = "username error";
+      }
+    }
+    if(pwd!=null){
+      if("123456".equals(name)){
+        msg = "ok";
+      }else{
+        msg = "username error";
+      }
+    }
+    return msg;
+  }
 }
